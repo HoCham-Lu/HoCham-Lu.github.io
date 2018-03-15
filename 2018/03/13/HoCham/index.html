@@ -37,6 +37,15 @@
 <body>
 <div class="side-navigate hide-area">
   
+    <div class="item prev">
+      <a href="/2018/03/15/前赤壁赋/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        《前赤壁赋》
+      </div>
+    </div>
+  
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -46,7 +55,7 @@
       <div id="brand">
         
         <a onClick="openUserCard()">
-          <img id="avatar" src="http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg"/>
+          <img id="avatar" src="/head.png"/>
           <div id="homelink">Hexo</div>
         </a>
       </div>
@@ -65,20 +74,6 @@
             <li>
           
             <a href="/archives">Archives</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/tags">Tags</a>
-            
-          </li>
-        
-          
-            <li>
-          
-            <a href="/categories">Categories</a>
             
           </li>
         
@@ -111,9 +106,9 @@
   <article id="post">
     <h1>HoCham</h1>
     <p class="page-title-sub">
-      <span id = "post-title-date">Created at 2018-03-13</span>
+      <span id = "post-title-date">撰写于 2018-03-13</span>
       
-        <span id = "post-title-updated">Updated at 2018-03-13</span>
+        <span id = "post-title-updated">修改于 2018-03-13</span>
       
       
       
@@ -122,16 +117,18 @@
     
   </article>
   <div class="random-toc-area">
-  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
-  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
   <div class="random-toc">
-    <h2>Table of Content</h2>
+    <h2>目录</h2>
     
   </div>
 </div>
 
   
 <nav id="pagination">
+  
+    <a href="/2018/03/15/前赤壁赋/" class="prev">&larr; 上一篇 《前赤壁赋》</a>
   
 
   
@@ -164,7 +161,7 @@
 
 <div id="user-card">
   <div class="center-field">
-    <img class="avatar" src="http://7te9fe.com1.z0.glb.clouddn.com/default_avatar.jpg">
+    <img class="avatar" src="/head.png">
     <p id="description"></p>
     <ul class="social-icon">
   
@@ -178,33 +175,9 @@
     </li>
   
     <li>
-      <a href="https://coding.net/u/Stiekel">
-        
-          <i class="icon iconfont coding">&#xe607;</i>
-        
-      </a>
-    </li>
-  
-    <li>
-      <a href="https://twitter.com/SidCN">
-        
-          <i class="icon iconfont twitter">&#xe600;</i>
-        
-      </a>
-    </li>
-  
-    <li>
       <a href="http://weibo.com/sidcn">
         
           <i class="icon iconfont weibo">&#xe602;</i>
-        
-      </a>
-    </li>
-  
-    <li>
-      <a href="http://www.douban.com/people/Stiekel/">
-        
-          <i class="icon iconfont douban">&#xe60f;</i>
         
       </a>
     </li>
@@ -280,7 +253,7 @@ var turnoffBackgroundImage = false;
   turnoffBackgroundImage = true;
 
 
-var backgroundColor = "34495E";
+var backgroundColor = 543094;
 
 $(".fancybox-thumb").fancybox({
   prevEffect: 'none',
